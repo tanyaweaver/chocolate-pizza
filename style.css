@@ -1,4 +1,6 @@
-body {
+article {
+  width: 850px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +14,16 @@ body {
 }
 
 .column-of-two {
+  width: 808px;
+  height: 45px;
+  margin-left: 4px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  display:flex;
   flex-direction: column;
 }
 
@@ -23,31 +34,107 @@ body {
 }
 
 .list {
+  height: 305px;
   display: flex;
   flex-direction: row;
-  background-image: url("../images/list-bg.png);
+  background-image: url("images/list-bg.png");
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+
 }
 
 .aligned-center{
-  margin: 0 auto;
+  text-align: center;
+  margin: 20px;
 }
 
 h1 {
   text-align: left;
+  margin-bottom: 1px;
+  /*font-family: 'Fjalla One', sans-serif;*/
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  margin: 0px;
+  font-family: 'Yellowtail', cursive;
+}
+
+h3 {
+  margin: 0px;
+  font-family: 'Merriweather', serif;
 }
 
 h4 {
-
+  margin: 0px;
 }
 
 h6 {
   text-align: left;
+  margin: 0px;
 }
 
 #rss {
   margin-left: 10px;
 }
 
-.icons > * {
-  margin: 1px;
+#print {
+  margin-right: 1px;
+}
+
+p {
+  margin: 0 auto;
+}
+
+button {
+  width: 180px;
+  height: 45px;
+  background-color: #B71C1C;
+  color: white;
+  font-size: 15px;
+}
+
+#pizza {
+  margin: 15px 0px 15px 0px;
+}
+
+#paragraphs > *{
+  margin-bottom: 25px;
+  text-align:center;
+}
+
+#rule {
+  color: #757575;
+  font-size: 8px;
+  width: 100%;
+}
+label {
+  margin: 5px;
+  font-family: 'Patrick Hand', cursive;
+}
+input {
+  margin: 3px 5px 0px 5px;
+  width: 1.5px;
+  height: 1.5px;
+}
+
+ul {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+li {
+  diaplay: flex;
+  flex-direction: row;
+  align-items: : center;
+  margin: 6px;
+
+}
+
+#vanessa {
+  margin: 0px 15px 35px 15px;
+}
+
+#small-logo {
+  margin: 0 auto;
 }
