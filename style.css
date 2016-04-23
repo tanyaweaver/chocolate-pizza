@@ -54,6 +54,7 @@ article {
   background-repeat: no-repeat;
   margin-bottom: 20px;
 
+
 }
 
 .aligned-center{
@@ -183,11 +184,20 @@ hr {
   height: 1px;
   background-color:#EEEEEE;
   border: none;
+}
 
+.thick-line {
+  width: 900px;
+  height: 7px;
+  background-color:#BDBDBD;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 p {
   color: #9E9E9E;
+  text-align: left;
 }
 
 #under-vanessa {
