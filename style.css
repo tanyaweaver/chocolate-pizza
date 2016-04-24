@@ -1,5 +1,5 @@
 article {
-  width: 900px;
+  width: 850px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ article {
 }
 
 .column-of-two {
-  width: 650px;
+  width: 600px;
   height: 50px;
   margin-left: 4px;
   display: flex;
@@ -53,8 +53,6 @@ article {
   background-image: url("images/list-bg.png");
   background-repeat: no-repeat;
   margin-bottom: 20px;
-
-
 }
 
 .aligned-center{
@@ -65,9 +63,8 @@ article {
 h1 {
   text-align: left;
   margin-bottom: 1px;
-  /*font-family: 'Fjalla One', sans-serif;*/
   font-family: 'Oswald', sans-serif;
-
+  font-size: 35px;
 }
 
 h2 {
@@ -91,10 +88,14 @@ h6  {
   text-align: left;
   margin: 0px;
   color: #BDBDBD;
+
+  font-weight: 100;
+  font-size: 13px;
+  font-family: "Arial Narrow", sans-serif;
 }
 
 #web {
-  font-size: 8px;
+  font-size: 10px;
 }
 
 #rss {
@@ -105,25 +106,17 @@ h6  {
   margin-right: 1px;
 }
 
-p {
-  margin: 0 auto;
-}
-
 button {
-  width: 180px;
-  height: 45px;
+  width: 200px;
+  height: 50px;
   background-color: #B71C1C;
   color: white;
   font-size: 15px;
+  border: none;
 }
 
 #pizza {
   margin: 15px 0px 15px 0px;
-}
-
-#paragraphs > *{
-  margin-bottom: 25px;
-  text-align:center;
 }
 
 #rule {
@@ -131,6 +124,7 @@ button {
   font-size: 8px;
   width: 100%;
 }
+
 label {
   margin: 5px;
   font-family: 'Patrick Hand', cursive;
@@ -177,6 +171,7 @@ li {
 
 .end {
   color: #BDBDBD;
+  margin: 0 auto;
 }
 
 hr {
@@ -186,20 +181,24 @@ hr {
   border: none;
 }
 
-.thick-line {
-  width: 900px;
-  height: 7px;
-  background-color:#BDBDBD;
-  border: none;
-  margin-top: 15px;
-  margin-bottom: 25px;
+#paragraphs > * {
+  text-align: left;
+  margin-bottom: 30px;
+  text-indent: 30px;
+}
+
+
+#under-vanessa {
+  margin-top: 5px;
 }
 
 p {
   color: #9E9E9E;
-  text-align: left;
+  font-family: 'Antic Slab', serif;
+  font-size: 18px;
+
 }
 
-#under-vanessa {
-  margin-top: 5px;
+.ruler {
+  margin: 25px 0px 25px 0px;
 }
