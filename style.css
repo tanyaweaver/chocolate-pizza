@@ -4,7 +4,6 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*align-content: center;*/
 }
 
 .row {
@@ -43,7 +42,6 @@ article {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-
 }
 
 .list {
@@ -52,7 +50,7 @@ article {
   flex-direction: row;
   background-image: url("images/list-bg.png");
   background-repeat: no-repeat;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .aligned-center{
@@ -68,7 +66,7 @@ h1 {
 }
 
 h2 {
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
   font-family: 'Yellowtail', cursive;
   font-size: 35px;
   height: 35px;
@@ -79,12 +77,12 @@ h3 {
   font-family: 'Merriweather', serif;
   color: #424242;
 }
-
+/*
 h4 {
   margin: 0px;
-}
+}*/
 
-h6  {
+h5 {
   text-align: left;
   margin: 0px;
   color: #BDBDBD;
@@ -94,7 +92,14 @@ h6  {
   font-family: "Arial Narrow", sans-serif;
 }
 
-#web {
+h6 {
+  text-align: left;
+  margin: 0px;
+  color: #BDBDBD;
+
+  font-weight: 100;
+  font-size: 13px;
+  font-family: "Arial Narrow", sans-serif;
   font-size: 10px;
 }
 
@@ -131,11 +136,6 @@ label {
   font-size: 20px;
   color: #757575;
 }
-input {
-  margin: 3px 5px 0px 5px;
-  width: 1.5px;
-  height: 1.5px;
-}
 
 ul {
   margin-left: 40px;
@@ -143,11 +143,10 @@ ul {
 }
 
 li {
-  diaplay: flex;
+  display: flex;
   flex-direction: row;
-  align-items: : center;
+  align-items: center;
   margin: 7px 15px 7px 15px;
-
 }
 
 #vanessa {
@@ -160,6 +159,7 @@ li {
   align-items: center;
   margin-top: 70px;
 }
+
 .aligned-left {
   margin-top: 2px;
 }
@@ -187,7 +187,6 @@ hr {
   text-indent: 30px;
 }
 
-
 #under-vanessa {
   margin-top: 5px;
 }
@@ -196,7 +195,6 @@ p {
   color: #9E9E9E;
   font-family: 'Antic Slab', serif;
   font-size: 18px;
-
 }
 
 .ruler {
